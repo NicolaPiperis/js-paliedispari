@@ -1,9 +1,11 @@
 // L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
 
-let userchoice = prompt("PARI o DISPARI");
+// prompt("PARI o DISPARI")
+let userchoice = document.getElementById("choice").value
 console.log(userchoice);
 
-let userNumber = parseInt(prompt("Inserire un numero da 1 a 5"));
+// parseInt(prompt("Inserire un numero da 1 a 5"))
+let userNumber = parseInt (document.getElementById("number").value) ;
 console.log(userNumber);
 
 // Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
@@ -32,3 +34,4 @@ function paridisparivincitore (user, pc) {
 
 let vincitore = paridisparivincitore(userNumber, pcNumber) ;
 console.log(vincitore);
+

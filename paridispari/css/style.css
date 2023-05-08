@@ -3,3 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+#container{
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input_container{
+    display: flex;
+    flex-direction: column;
+}
